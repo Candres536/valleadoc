@@ -47,6 +47,7 @@
     right: 25px;
     font-size: 35px;
     font-weight: bold;
+     z-index: 4;
   }
   
   .close:hover,
@@ -136,3 +137,17 @@
   .img-slide{
     height: 470px;
   }
+
+
+@media (max-width: 858px){
+   
+    .img-slide{
+      height: 300px ;
+    }
+
+    .column{
+      width: 33.2%;
+    }
+
+}
+
