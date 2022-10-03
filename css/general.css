@@ -117,7 +117,26 @@ button:hover{
 	}
 }
 
+@media (min-width: 1200px){
+    
+	.button-c{
+		width: 45%;
 
+	}
+
+	.education{
+		align-items: center;
+		margin-top: 0;
+		margin-left: 127px;
+		
+	}
+
+	.bachiller{
+		margin-left: 270px;
+	}
+   
+
+}
 
 
 /*------------------------------------FOOTER------------------------------------------------------------*/
