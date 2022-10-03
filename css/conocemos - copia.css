@@ -101,3 +101,22 @@
 
 
 }
+
+
+@media (max-width:414px){
+    .img-tap{
+        display: none;
+    }
+
+    .div-tex-tap{
+        width: 100%;}
+}
+
+@media (max-width:1302px){
+    .img-tap{
+        display: none;
+    }
+
+    .div-tex-tap{
+        width: 100%;}
+}
