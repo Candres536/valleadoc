@@ -76,7 +76,15 @@
     margin-right: 50px;
 }
 
-
+@media (max-width: 414px){
+    
+    .contenedor-imagenes .imagen2{
+        width: 48%;
+        margin-right: 4px;
+        
+    }
+     
+}
 
 
 
