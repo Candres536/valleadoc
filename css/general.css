@@ -104,19 +104,6 @@ button:hover{
     margin-top: 40px;
 }
 
-
-@media (max-width: 858px){
-	.button-c{
-		width: 100%;
-
-	}
-
-	.education{
-		align-items: baseline;
-		margin-top: 0;
-	}
-}
-
 @media (max-width: 1200px){
     
 	.button-c{
@@ -137,6 +124,20 @@ button:hover{
    
 
 }
+
+@media (max-width: 858px){
+	.button-c{
+		width: 100%;
+
+	}
+
+	.education{
+		align-items: baseline;
+		margin-top: 0;
+	}
+}
+
+
 
 
 /*------------------------------------FOOTER------------------------------------------------------------*/
