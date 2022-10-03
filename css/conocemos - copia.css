@@ -88,4 +88,16 @@
 /*.div-tex-tap1{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://pbs.twimg.com/media/EttuFfpXMAAspNa.jpg:large);
 
-}+/
+}*/
+
+@media (max-width: 858px){
+    .img-tap{
+        display: none;
+    }
+
+    .div-tex-tap{
+        width: 100%;
+    }
+
+
+}
