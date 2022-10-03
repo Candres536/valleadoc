@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/conocemos - copia.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="content-omega-landa">
+        <div class="content-tap1">
+            <div class="menu-tap">
+        
+             <div class="sub-tap">
+                <button onclick="tap()">Conocenos</button>
+                <button onclick="tap2()">¿Porque estudiar?</button>
+             </div>
+        
+            </div>
+        
+            <div class="content-tap2">
+        
+        
+                <div class="tap ver" id="tap1">
+                   <div class="img-tap">
+                     <img class="img-tap1" src="./multimedia/WhatsApp Image 2022-08-19 at 6.44.20 PM.jpeg" alt="">
+                   </div>
+                    
+                        
+                        <iframe class="div-tex-tap" src="./html/conocenos.html" frameborder="0"></iframe>
+                    
+        
+                </div>
+        
+        
+        
+        
+                <div class="tap" id="tap2">
+                    <div class="img-tap" >
+                        <img class="img-tap1" src="https://pbs.twimg.com/media/EttuFfpXMAAspNa.jpg:large" alt="">
+                    </div>
+                    <iframe class="div-tex-tap" src="./html/conocenos.html" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+   
+   <script>
+    function tap(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap1.classList.add("ver");
+        tap2.classList.remove("ver");
+        tap3.classList.remove("ver");
+    }
+
+    function tap2(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap2.classList.add("ver");
+        tap1.classList.remove("ver");
+        tap3.classList.remove("ver");
+    }
+
+
+    function tap3(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap3.classList.add("ver");
+        tap1.classList.remove("ver");
+        tap2.classList.remove("ver");
+    }
+   </script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+.contenedor-imagenes{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 0;
+    height: 100%;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+
+.overlay h1{
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+
+    
+}
+
+
+
+.imagen:hover .overlay{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.imagen:hover{
+    transform: scale(1.3);
+    transition: 0.1s;
+    z-index: 1;
+}
+
+
+.galeria{
+    margin-top: 50px;
+}
+
+

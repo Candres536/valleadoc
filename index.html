@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="./css/menu9.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/modal 2.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+    <link rel="stylesheet" href="./css/galeria3.css">
+    <link rel="shortcut icon" href="./multimedia/WhatsApp Image 2022-07-22 at 2.19.01 PM.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/conocemos - copia.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <style>
+
+.menu{
+    
+    width: 100%;
+    z-index: 2;
+    position: fixed;
+    transition: 1s ease;
+    
+  
+}
+
+
+
+
+
+.abajo{
+  background-color: #3c68f0;
+  position: fixed;
+  
+}
+
+
+
+
+    </style>
+    
+    
+</head>
+<body>
+  <nav class="menu">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <a href="#" class="enlace">
+        <img src="./multimedia/WhatsApp Image 2022-07-22 at 2.19.01 PM.jpeg" alt="" class="logo">
+        <h1>Complejo Educativo Reparto Valle Nuevo</h1>
+    </a>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Nosotros</a></li>
+        
+        
+    </ul>
+</nav>     
+
+<!-- Slideshow container -->
+
+ <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      
+      <div class="img img-s1"></div>
+      
+      
+    </div>
+  
+    <div class="mySlides fade">
+     
+      <div class="img img-s2"></div>
+      
+    </div>
+  
+    <div class="mySlides fade">
+    
+      <div class="img img-s3"> </div>
+      <div class="text"></div>
+    </div>
+  
+    
+ </div>
+
+        <div class="education">
+            <button class="button-c kinder">Kinder</button>
+            <button class="button-c primer-ciclo">Primer ciclo</button>
+            <button class="button-c segundo-ciclo">Segundo ciclo</button>
+            <button class="button-c tercer-ciclo">Tercer ciclo</button>
+            <button class="button-c bachiller">Bachillerato</button>
+        </div>
+
+        <!--MODALES------------------------------------------------------------------------------------------>
+        <div class="modales">
+          <section class="modal" id="modal-1">
+              <div class="modal-container">
+                  <img src="https://images.ctfassets.net/xf6mqlbz6glx/1eu3g8eIj2Iq84OvCsYvi7/3fc02bf7e864a8bda4f8ce684ca4c25f/PreSchool-7Students_reading_a_book_with_two_female_teachers-School_Readiness.jpg?fm=jpg&fl=progressive&w=960&q=80" alt="" class="imagen-modal">
+                  <h2 class="title-modal">Kinder</h2>
+                  <p class="modal-p">Impartimos clases de kinder 4, kinder 5 y kinder 6 con matricula en la mañana y tarde</p>
+                  <a href="#" class="modal-close">Cerrar</a>
+              </div>
+          </section>
+    
+          <section class="modal" id="modal-2">
+              <div class="modal-container">
+                  <img src="http://www.hsmcj.org/elsalvador/img/niveles/primer/primer4.jpg" alt="" class="imagen-modal">
+                  <h2 class="title-modal">Primer ciclo</h2>
+                  <p class="modal-p">Tenemos primer año, segundo y tercero  con matricula en la mañana y tarde, impartimos clases de matematica, lenguaje, sociales, ciencias, ingles, musica, fisica</p>
+                  <a href="#" class="modal-close2">Cerrar</a>
+              </div>
+          </section>
+    
+          <section class="modal" id="modal-3">
+              <div class="modal-container">
+                  <img src="data:image/jpeg;base64,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" alt="" class="imagen-modal">
+                  <h2 class="title-modal">Segundo ciclo</h2>
+                  <p class="modal-p">Clases avanzadas en impartimos clases de matematica, lenguaje, sociales, ciencias, ingles, musica, fisica repransando y aprendiendo nuevas cosas para los grados de cuarto grado, quinto grado, sexto grado con matricula en la mañana y tarde</p>
+                  <a href="#" class="modal-close3">Cerrar</a>
+              </div>
+          </section>
+    
+    
+          <section class="modal" id="modal-4">
+              <div class="modal-container">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToIhZJvGUC0h525pHXModqTsofWGy02rxWxQ&usqp=CAU" alt="" class="imagen-modal">
+                  <h2 class="title-modal">Tercer ciclo</h2>
+                  <p class="modal-p">tenemos clases para septimo grado, octavo grado y novedo grado con estudios en la literatura antigua, algebra , ingles intermedio, estudios de la historia de El Savador</p>
+                  <a href="#" class="modal-close4">Cerrar</a>
+              </div>
+          </section>
+    
+    
+          <section class="modal" id="modal-5">
+              <div class="modal-container">
+                  <img src="https://www.mined.gob.sv/wp-content/uploads/2020/10/0a30c0d4acabc86cf78c13eabc72051f.jpg" alt="" class="imagen-modal">
+                  <h2 class="title-modal">Bachillerato</h2>
+                  <p class="modal-p">Tenemos bachillerato general en especializacion en el area de ingles y diseño grafico con las 4 materias principales, valores, informatica, orientacion para la vida y seminario</p>
+                  <a href="#" class="modal-close5">Cerrar</a>
+              </div>
+          </section>
+  </div>
+
+         <!--MODALES------------------------------------------------------------------------------------------>
+         <div class="content-omega-landa">
+          <div class="content-tap1">
+              <div class="menu-tap">
+          
+               <div class="sub-tap">
+                  <button onclick="tap()">Conocenos</button>
+                  <button onclick="tap2()">Nuevo Ingreso</button>
+               </div>
+          
+              </div>
+          
+              <div class="content-tap2">
+          
+          
+                  <div class="tap ver" id="tap1">
+                     <div class="img-tap">
+                       <img class="img-tap1" src=" https://pbs.twimg.com/media/EttuFfpXMAAspNa.jpg:large" alt="">
+                     </div>
+                      
+                          
+                          <iframe class="div-tex-tap" src="./html/conocenos.html" frameborder="0"></iframe>
+                      
+          
+                  </div>
+          
+          
+          
+          
+                  <div class="tap" id="tap2">
+                      <div class="img-tap" >
+                          <img class="img-tap1" src="./multimedia/WhatsApp Image 2022-08-19 at 6.44.20 PM.jpeg" alt="">
+                      </div>
+                      <iframe class="div-tex-tap" src="./html/nuevo ingreso.html" frameborder="0"></iframe>
+                  </div>
+              </div>
+          </div>
+
+
+<div class="contenedor-mayor-galeria">
+    
+    
+    <div class="texto-g">
+        <h2>Contamos con las siguientes &aacute;reas</h2>
+    </div> 
+    <div class="linea"></div>
+    
+    <div class="galeria">
+       
+       
+        <div class="contenedor-imagenes">
+            <div onclick="openModal();currentSlide(1)" class="hover-shadow cursor imagen2" ><img src="./multimedia/futball.jpeg" alt="">
+               <div class="overlay">
+                   <h1>Cancha de fútbal</h1>
+               </div>
+           </div>
+           <div onclick="openModal();currentSlide(2)" class="hover-shadow cursor imagen2"><img src="./multimedia/jardin.jpeg" alt="">
+               <div class="overlay">
+                   <h1>Huerto escolar</h1>
+               </div>
+           </div>
+           <div onclick="openModal();currentSlide(3)" class="hover-shadow cursor imagen2"><img src="./multimedia/basket.jpeg" alt="">
+               <div class="overlay">
+                   <h1>Cancha de basketball</h1>
+               </div>
+           </div>
+        <div onclick="openModal();currentSlide(4)" class="hover-shadow cursor imagen2"><img src="./multimedia/computacion.jpeg" alt="">
+               <div class="overlay">
+                   <h1>Centro de computaci&oacute;n</h1>
+               </div>
+           </div>
+           <div onclick="openModal();currentSlide(5)" class="hover-shadow cursor imagen2"><img src="https://www.elsalvadortimes.com/media/elsalvadortimes/images/2017/03/27/2017032718082597843.jpg" alt="">
+               <div class="overlay">
+                   <h1>Cafeteria</h1>
+               </div>
+           </div>
+    
+           <div onclick="openModal();currentSlide(6)" class="hover-shadow cursor imagen2"><img src="./multimedia/area de juegos.jpeg" alt="">
+            <div class="overlay">
+                <h1>&Aacute;rea de juegos</h1>
+            </div>
+        </div>
+        </div>
+       
+    </div>
+    
+</div>
+
+<div id="myModal3" class="modal3">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides3">
+        <div class="numbertext">1 / 4</div>
+        <img src="./multimedia/futball.jpeg" class="img-slide" style="width:100%">
+      </div>
+  
+      <div class="mySlides3">
+        <div class="numbertext">2 / 4</div>
+        <img src="./multimedia/jardin.jpeg" class="img-slide" style="width:100%">
+      </div>
+  
+      <div class="mySlides3">
+        <div class="numbertext">3 / 4</div>
+        <img src="./multimedia/basket.jpeg"  class="img-slide" style="width:100%">
+      </div>
+      
+      <div class="mySlides3">
+        <div class="numbertext">4 / 4</div>
+        <img src="./multimedia/computacion.jpeg" class="img-slide" style="width:100%">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">5 / 6</div>
+        <img src="https://www.elsalvadortimes.com/media/elsalvadortimes/images/2017/03/27/2017032718082597843.jpg" class="img-slide" style="width:100%">
+      </div>
+
+      <div class="mySlides3">
+        <div class="numbertext">6 / 6</div>
+        <img src="./multimedia/area de juegos.jpeg" class="img-slide" style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+  
+      <div class="column">
+        <img class="demo cursor img7" src="./multimedia/futball.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Cancha de fútbal">
+      </div>
+      <div class="column">
+        <img class="demo cursor img7" src="./multimedia/jardin.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Huerto escolar">
+      </div>
+      <div class="column">
+        <img class="demo cursor img7" src="./multimedia/basket.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Cancha de basketball">
+      </div>
+      <div class="column">
+        <img class="demo cursor img7" src="./multimedia/computacion.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Centro de computación">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor img7" src="https://www.elsalvadortimes.com/media/elsalvadortimes/images/2017/03/27/2017032718082597843.jpg" style="width:100%" onclick="currentSlide(5)" alt="Cafeteria">
+      </div>
+      <div class="column">
+        <img class="demo cursor img7" src="./multimedia/area de juegos.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Área de juegos">
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<footer>
+    <div class="contenedor">
+        <h2 class="titulo-footer">Preguntas</h2>
+        <h3 class="subtitulo-footer">Escribanos</h3>
+        <div class="footer">
+            <form action="" data-netlify="true" name="form">
+                <input type="text" name="nombre" id="" placeholder="nombre">
+                <input type="text" name="email" id="" placeholder="email">
+                <textarea name="comentario" id="" cols="30" rows="10" placeholder="Ingrese mensaje...">
+                </textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
+</footer>
+<script src="./js/slider.js"></script>
+<script src="./js/modal.js"></script>
+       
+        <script>
+    
+            function openModal() {
+              document.getElementById("myModal3").style.display = "block";
+            }
+            
+            function closeModal() {
+              document.getElementById("myModal3").style.display = "none";
+            }
+            
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides3");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+
+
+            window.addEventListener("scroll", function(){
+              var menu = document.querySelector(".menu");
+              
+              menu.classList.toggle("abajo", window.scrollY>0);
+              
+            })
+
+            
+
+
+
+           
+
+
+            function tap(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap1.classList.add("ver");
+        tap2.classList.remove("ver");
+        tap3.classList.remove("ver");
+    }
+
+    function tap2(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap2.classList.add("ver");
+        tap1.classList.remove("ver");
+        tap3.classList.remove("ver");
+    }
+
+
+    function tap3(){
+        const tap1 = document.getElementById("tap1");
+        const tap2 = document.getElementById("tap2");
+        const tap3 = document.getElementById("tap3");
+        tap3.classList.add("ver");
+        tap1.classList.remove("ver");
+        tap2.classList.remove("ver");
+    }
+          
+
+            </script>
+            
+        
+</body>
+</html>

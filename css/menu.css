@@ -1,0 +1,39 @@
+header, .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    
+}
+
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.logo h2, .logo{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    margin-right: 27px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+
+nav a:hover{
+    background-color: white;
+    color: #3c68f0;
+
+}

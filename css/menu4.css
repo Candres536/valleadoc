@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header, .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    
+    
+}
+
+.logo > img{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.logo h2, .logo{
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu1 > li{
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+
+.menu1 > li >.button7{
+    background-color: transparent;
+    border: none;
+    display: block;
+    padding: 25px 30px;
+    font-size: 15px;
+    text-decoration: none;
+    
+    border-radius: 0.6px;
+}
+
+.menu1 > li >.button7> a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.submenu{
+    position: absolute;
+    background-color: crimson;
+    width: 100%;
+    display: none;
+}
+
+.submenu li a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 15x;
+}
+
+.menu1 > li> .button7:hover{
+    background-color: white;
+    color: #3c68f0;
+}
+
+.menu1 > li> .button7:hover a{
+    
+    color: #3c68f0;
+}
+
+.apear2{
+    display: block;
+    
+}
+ 
+.blanco{
+    color: #3c68f0;
+    background-color: #fff;
+}
+
+.cblanco{
+    color: #3c68f0;
+
+    
+}
+
+.bblanco{
+    color: #fff;
+}
+
+.masifo{
+    cursor: pointer;
+}
+
+
+.submenu li a:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+}
+
+li > a  {
+    font-size: 20px;
+}
+
+.menu1 > li> .button7{
+    font-size: 20px;
+    
+}
+
+.menu1 > li> .button7 a{
+    font-size: 20px;
+    
+}
