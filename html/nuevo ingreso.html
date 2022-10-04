@@ -18,7 +18,8 @@
 
         h1{
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 26px;
+            font-size: 40px;
         }
 
         .img{
@@ -38,33 +39,132 @@
         li{
             font-size: 22px;
             margin-left: 18px;
+            margin-bottom: 20px;
         }
-        
+
+        .contenedor{
+            margin-bottom: -20px;
+        }
+
         .ficha{
             width: 100%;
-            font-size: 30px;
+            font-size: 20px;
             background-color: #000090;
             padding: 15px;
             color: #ffff;
             text-decoration: none;
             list-style: none;
-            margin-top: 20px;
+            margin-top: 200px;
+            text-align: center;
+            margin-top: 1500000000000px;
+            margin-bottom: 15px;
+        }
+
+        .matricula{
+            font-size: 160%;
+            display: inline-block;
+            padding: 10px;
+            width: 47%;
+            background-color: #000090;
+            color: white;
+            text-align: center;
+            border-radius: 15px;
+            position: relative;
+            
+        }
+
+        .matric{
+            display: inline-block;
+        }
+
+        .content-drow{
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            margin-left: 30px;
+            margin-right: 30px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            padding: 15px;
+            padding-bottom: 16px;
+        }
+
+        .show{
+            display: block;
+        }
+
+
+        .button9{
+            background-color: #31df05;
+            cursor: pointer;
+            padding: 16px;
+            margin-right: 30px;
+            margin-left: 30px;
+            height: 80px;
+            font-size: 130%;
+            border: none;
+            width: 95%;
+            color: white;
+            
+        }
+
+        .requi{
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Requisito de nuevo ingreso</h1>
-    <div class="contenedor">
+    <h1>Nos encotramos con las siguientes madriculas</h1>
+
+    <div>
         
-        <div><ul>
+        <ul class="matric">
+            <li class="matricula">Parvularia 4, 6</li>
+            <li class="matricula">Primer Grado</li>
+            <li class="matricula">Quinto grado</li>
+            <li class="matricula">Tercer grado</li>
+            <li class="matricula">Noveno grado</li>
+            <li class="matricula">Octavo grado</li>
+            
+        </ul>
+    </div>
+    <div class="contenedor">
+        <button class="button9" onclick="click2()">Requisito de nuevo ingreso</button>
+        <div class="content-drow" id="mycon">
+            <ul class="requi">
             <li>Llenar y firmar la solicitud de matrícula.</li>
             <li>Partida de nacimiento.</li>
             <li>Una fotografía tamaño cédula.</li>
             <li>El estudiante debe presentar información de contacto verificable (correo electrónico, teléfono celular o fijo (personal, familiar y del trabajo, si aplica)</li>
             <li>Si el estudiante es menor de edad, debe presentar DUI y NIT de la persona responsable</li>
-        </ul></div>
+            <li>Libreta de notas del año pasado</li>
+            <li>Certificado de Graduación y Diploma</li>
+            </ul>
+        
+            <a class="ficha" href="../multimedia/Solicitud_de_nuevo_ingreso.pdf" download="../multimedia/solicitud_de_nuevo_ingreso.pdf">Descarga de ficha de ingreso </a>
+        
     </div>
-    <p></p>
-        <a class="ficha" href="../multimedia/Solicitud_de_nuevo_ingreso.pdf" download="../multimedia/solicitud_de_nuevo_ingreso.pdf">Ficha de ingreso </a>
+    </div>
+        
+
+        <script>
+            function click2(){
+                document.getElementById("mycon").classList.toggle("show");
+            }
+
+
+            window.onclick = function(event) {
+  if (!event.target.matches('.button9')) {
+    var dropdowns = document.getElementsByClassName("content-drow");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+        </script>
 </body>
 </html>
