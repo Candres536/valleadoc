@@ -105,7 +105,6 @@ button:hover{
 }
 
 
-
 @media (max-width: 858px){
 	.button-c{
 		width: 100%;
@@ -117,6 +116,11 @@ button:hover{
 		margin-top: 0;
 	}
 }
+
+
+
+
+
 
 
 
@@ -134,10 +138,10 @@ footer {
 	color: white;
 	font-weight: 400px;
 	text-align: center;
-	font-size: 56px;
+	font-size: 46px;
 }
 .subtitulo-footer{
-	font-size: 16px;
+	font-size: 26px;
 	font-weight: 400;
 	margin-bottom: 64px;
 }
@@ -162,10 +166,11 @@ input[type="text"], input[type="email"]{
 
 }
 textarea{
+	margin-right: 15px;
 	display: block;
 	width: 100%;
-	max-width: 100%;
-	min-width: 100%;
+	max-width: 90%;
+	min-width: 95%;
 	max-height: 200px;
 	min-height: 200px;
 	background: rgb(37, 37, 33,.7);
