@@ -177,7 +177,7 @@ textarea{
 	display: block;
 	width: 100%;
 	max-width: 90%;
-	min-width: 95%;
+	min-width: 100%;
 	max-height: 200px;
 	min-height: 200px;
 	background: rgb(37, 37, 33,.7);
@@ -194,7 +194,7 @@ input[type="submit"]{
 	color: white;
 	background: rgb(37, 37, 33,.7);
 	width: 96px;
-	font-family: cursive;
+	
 }
 input[type="text"]:focus, input[type="email"]:focus{
 	border-top: 5px solid white;
