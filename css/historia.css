@@ -151,11 +151,21 @@ max-height: 455px;
 
     .container1, .container2, .container3, .container4{
         max-height: none;
-        height: 600px;
+        height: 620px;
+        padding-bottom: 10%;
+
     }
 
-    .texto1, .texto2, .texto3{
-        font-size: 17px;
+    .container2{
+        height: 635px;
+    }
+    .texto2{
+        font-size: 106%;
+        
+    }
+
+    .texto1, .texto3{
+        font-size: 110%;
     }
 
     .foto{
