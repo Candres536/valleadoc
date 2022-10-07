@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 858px){
+    .enlace{
+        width: 270px;
+    }
+}
+
+body{
+    background-color: rgb(13,99,154);
+}
+
+.menu{
+    background-color: #3c68f0;
+}
+
+.historia{
+    margin-top: 20px;
+    
+}
+
+.H0{
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 42px;
+    
+}
+
+.img1, .img2, .img3{
+   width: 100%;
+   height: 100%;
+}
+
+.img2{
+   
+}
+
+.container1, .container2, .container3, .container4{
+    background-color: #87CEFA;
+    margin-bottom: 89px;
+    height: 500px;
+    max-height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 5px solid white;
+}
+
+.imagen, .imagen2, .imagen3{
+    width: 615px;
+    height: 500px;
+    max-width: 615px;
+    max-height: 490px;
+   
+}
+
+.foto{
+    width: 649px;
+max-width: 649px;
+    height: 455px;
+max-height: 455px;
+    margin: -1;
+    border: 3px solid white;
+}
+
+.imgl1{
+    margin-right: -4px;
+}
+
+.imagen{
+    float: left;
+    margin-right: 12px;
+}
+
+.imagen2{
+    float: right;
+    margin-left: 12px;
+}
+
+.imagen3{
+    float: left;
+    margin-right: 12px;
+}
+
+.texto1, .texto2, .texto3{
+    height: 463px;
+    padding: 15px;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+   text-align: justify;
+}
+
+.sub-valle{
+    margin-bottom: 15px;
+}
+
+.line{
+    border-left: 6px solid whitesmoke;
+    height: 89px;
+    position: absolute;
+    left: 50%;
+    margin-top: -89px;
+    z-index: -3;
+    
+    }
+
+
+.pictures{
+    width: 100%;
+    background-color: rgb(18, 207, 207);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    height: 35px;
+    padding: 2px;
+    font-size: 30px;
+}
+
+.titulo49{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 40px;
+    border: 5px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+}
+
+.video{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 858px){
+    .H0{
+        font-size: 20px;
+    }
+    .imagen, .imagen2, .imagen3, .imgk{
+        display: none;
+    }
+
+    .container1, .container2, .container3, .container4{
+        max-height: none;
+        height: 600px;
+    }
+
+    .texto1, .texto2, .texto3{
+        font-size: 17px;
+    }
+
+    .foto{
+        display: none;
+    }
+
+    .video{
+        margin-left: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .video> iframe{
+        width: 100%;
+        height: 400px;
+    }
+
+    .container4{
+        height: 180px;
+    }
+
+    .pictures{
+        height: 100%;
+        padding-top: 15px;
+    }
+
+    .titulo49{
+        font-size: 20px;
+    }
+
+    .sub-valle{
+        text-align: center;
+    }
+}
