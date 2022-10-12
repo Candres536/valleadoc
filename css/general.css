@@ -188,7 +188,7 @@ textarea{
 	max-height: 200px;
 	min-height: 200px;
 	background: rgb(37, 37, 33,.7);
-	
+	padding: 13px;
 	border: none;
 	color: white;
 	
