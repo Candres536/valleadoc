@@ -107,19 +107,26 @@ button:hover{
 
 @media (max-width: 858px){
 	.button-c{
-		width: 100%;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
 
 	}
 
 	.education{
-		align-items: baseline;
+		display: flex;
+		justify-items: center;
+		flex-direction: column;
 		margin-top: 0;
+		
+		padding-bottom: 20px;
 	}
 	
 	
 
 	.space-menu{
-		height: 40px;
+		height: 80px;
 		z-index: -2;
 	
 }
