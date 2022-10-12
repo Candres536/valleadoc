@@ -68,6 +68,11 @@
 
 
 @media (max-width: 858px){
+    
+    .nombre, .titulo{
+        
+        width: 100%;
+    }
     .creadores1{
         justify-content: center;
         flex-direction: column;
@@ -82,7 +87,7 @@
     }
 
     .h1a{
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .enlace{
